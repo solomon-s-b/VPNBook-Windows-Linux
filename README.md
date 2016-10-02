@@ -1,7 +1,9 @@
 # VPNBook
 Auto connect VPN Client (Linux\Windows) service with www.vpnbook.com
 
-Linux:
+### Linux:
+The bash script was originally forked from:
+[ironbugs/VPNBook](https://github.com/ironbugs/VPNBook)
 
 1. Added: 10 seconds timeout.
 2. Use only grep in perl mode to extract the usename and password.
@@ -10,7 +12,7 @@ Linux:
 5. Added: check if User have sudo rights.
 6. Added: option to select server port number.
 
-Windows:
+### Windows:
 
 1. 10 seconds timeout.
 2. Use only findstr to extract the usename and password.
